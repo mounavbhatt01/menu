@@ -7,3 +7,12 @@
 <style>
   body { padding-top:50px; }
 </style>
+<!--music-->
+<audio src="https://www.bensound.com/bensound-music/bensound-moose.mp3"></audio>
+<Script>
+  window.addEventListener("DOMContentLoaded", event => {
+    const audio = document.querySelector("audio");
+    audio.volume = 0.5;
+    audio.play();
+  });
+</Script>
