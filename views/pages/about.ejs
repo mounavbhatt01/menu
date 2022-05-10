@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+ 
+</head>
+<style>
+   ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 1000px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 6px;
+  text-decoration: none;
+}
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+    </style>
+    </head>
+<body class="container">
+
+<main>
+  <div class="main">
+    <h1>ABOUT</h1>
+      <ul>
+        This project is created by Aditya Vikram Singhania  and Mounav Bhattacharjee as a final year project.
+        In this project we have used Mediapipe’s Hands solution to make our project “Hand Cricket”.
+         We have used hand detection to detect our hands and calculate the number of fingers we are showing in real-time live video ,
+         which  is used in the logic of our project “hand cricket”.
+          Basically, Hand Cricket is a game in which two players show scores on their respective fingers.
+           If the scores are equal ,the batsman is declared out. Else, the score of the batsman is added to the total runs of the batting team. 
+        </ul>
+  </div>
+</main>
+<footer>
+  <%- include('../partials/footer'); %>
+</footer>
+</body>
+</html>

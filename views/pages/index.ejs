@@ -8,6 +8,7 @@
    ul {
   list-style-type: none;
   margin: 0;
+  text-align:center;
   padding: 0;
   width: 200px;
   background-color: #f1f1f1;
@@ -23,20 +24,32 @@ li a:hover {
   background-color: #555;
   color: white;
 }
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
     </style>
     </head>
 <body class="container">
 
 <main>
   <div class="main">
+    
     <h1>HAND CRICKET</h1>
 
       <ul>
         <li><a href="/">Start</a></li>
         <li><a href="/instructions">Instruction</a></li>
+        <li><a href="/about">About</a></li>
       </ul>
   </div>
 </main>
-
+<footer>
+  <%- include('../partials/footer'); %>
+</footer>
 </body>
 </html>
